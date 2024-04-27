@@ -1,0 +1,35 @@
+{
+  "name": "working_with_files_dnd",
+  "version": "1.0.0",
+  "description": "Правила сдачи задания:",
+  "main": "index.js",
+  "module": "",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --mode production",
+    "lint": "eslint ."
+  },
+  "author": "RoziznanVadim <roziznan_v@mail.ru>",
+  "license": "ISC",
+  "repository": "git@github.com:VadimRoziznan/working_with_files_DnD.git",
+  "dependencies": {
+    "@babel/core": "^7.24.4",
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/preset-env": "^7.24.4",
+    "@babel/preset-react": "^7.24.1",
+    "@material-ui/core": "^4.12.4",
+    "babel-loader": "^9.1.3",
+    "copy-webpack-plugin": "^12.0.2",
+    "css-loader": "^7.1.1",
+    "file-loader": "^6.2.0",
+    "html-loader": "^5.0.0",
+    "html-webpack-plugin": "^5.6.0",
+    "live-server": "^1.2.2",
+    "md-converter": "^1.0.3",
+    "mini-css-extract-plugin": "^2.9.0",
+    "prettier": "^3.2.5",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  }
+}
