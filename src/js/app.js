@@ -176,16 +176,14 @@ document.addEventListener("DOMContentLoaded", () => {
       itemsElements.forEach(element => {
         /*element.classList.remove('margin-bottom')*/
         element.style.marginBottom = '0px';
+        e.target.classList.remove('margin-bottom');
       });
       /*e.target.classList.add('margin-bottom')*/
-      if (e.target.classList.contains("margin-bottom")) {
-        
-      } else {
-        e.target.style.marginBottom = elementHeight + 'px';
+      if (!e.target.classList.contains("margin-bottom")) {
+        e.target.style.marginBottom = elementHeight / 8 + 'px';
+        console.log(e.target.style.marginBottom)
         e.target.classList.add('margin-bottom')
-      }
-      
-      
+      } 
     }
 
     const rect = actualElement.getBoundingClientRect();
