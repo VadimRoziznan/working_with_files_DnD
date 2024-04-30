@@ -44,10 +44,10 @@ module.exports = {
       filename: './index.html',
     }),
     new MiniCSSExtractPlugin(),
-    /*new CopyPlugin({
+    new CopyPlugin({
       patterns: [
         { from: 'src/images', to: 'images' },
       ],
-    }),*/
+    }),
   ],
 };

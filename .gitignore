@@ -1,5 +1,6 @@
 dist
 doc
+.vscode
 .idea
 
 # Logs
@@ -82,7 +83,3 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
-
-# Thumbnails
-Thumbs.db
-Thumbs.db:encryptable
