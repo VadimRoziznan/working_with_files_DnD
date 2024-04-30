@@ -1,0 +1,140 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(-45deg, #e2b4a6, #ebacc4, #a8cddb, #9fcfc4);
+}
+
+.headline {
+  font-size: 15px;
+  font-weight: 600;
+  margin: 10px;
+  height: 25px !important;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+	align-items: center;
+  
+}
+
+.main-block{
+  display: flex;
+  background-color: #41b4f7;
+  margin: 10px;
+  border-radius: 2%;
+
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+	flex-wrap: nowrap;
+  justify-content: start;
+  width: 300px;
+  height: max-content;
+  background-color: rgb(223, 222, 222);
+  margin: 8px 8px 8px 0;
+  border-radius: 2%;
+}
+
+.column:first-child {
+  margin-left: 8px;
+}
+
+.items {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.items-item {
+  display: flex;
+  flex-wrap: nowrap;
+  /*border: 1px solid #999;*/
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 8px;
+  margin-right: 8px;
+  cursor: pointer;
+
+  width: 88%;
+  word-break: break-all;
+  justify-content: space-between;
+
+  border-radius: 5%;
+}
+
+.items-item.dragged {
+  width: 260px;
+  border-radius: 10px;
+  position: absolute;
+  z-index: 999;
+  pointer-events: none;
+  background: #fff;
+  /*transform: rotate(-4deg);*/
+  cursor: 'move'
+}
+
+.block-text {
+  display: flex;
+  width: 97%;
+  word-break: break-all;
+  
+}
+
+ul {
+  padding-left: 0 !important;
+  list-style-type: none;
+}
+
+ul :first-child {
+  margin-top: 8px !important; 
+}
+
+li {
+  background-color: rgb(231, 238, 238);
+  list-style-type: none;
+  
+}
+
+.bt {
+  margin-top: 40px;
+  margin-bottom: 10px !important;
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 12px;
+  color: #777777;
+  cursor: pointer;
+  width: 120px;
+}
+
+.delete-icon {
+  display: flex;
+  flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	align-items: flex-start;
+  top: 2px;
+  right: 2px;
+  margin: 0 0 0 0;
+  background: none;
+  border: none;
+  color: #777777;
+  cursor: pointer;
+
+  position: relative;
+  top: -15px;
+  left: 11px;
+  
+}
+
+.margin-bottom {
+  
+}
+
