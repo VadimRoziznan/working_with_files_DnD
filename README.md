@@ -1,4 +1,4 @@
-#### Доступно на Github Pages: [Работа с файлами, DnD](https://VadimRoziznan.github.io/forms)
+#### Доступно на Github Pages: [Работа с файлами, DnD](https://VadimRoziznan.github.io/working_with_files_DnD)
 
 # Домашнее задание к занятию "6. Работа с файлами, DnD"
 
